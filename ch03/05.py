@@ -21,7 +21,6 @@ def softmax(a):
     return y
 
 # 소프트맥스의 확률적인 특징
-
 per = np.array([0.3, 2.9, 4.0])
 print(softmax(per))
 print(np.sum(softmax(per)))
